@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">23 methods,   23 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.ProductValidationPageTest" class="method navigator-link" hash-for-method="accountingCodePurchaseInportValidationTest">accountingCodePurchaseInportValidationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.ProductValidationPageTest" class="method navigator-link" hash-for-method="accountingCodePurchaseValidationTest">accountingCodePurchaseValidationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.ProductValidationPageTest" class="method navigator-link" hash-for-method="accountingCodeSaleExportValidationTest">accountingCodeSaleExportValidationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.ProductValidationPageTest" class="method navigator-link" hash-for-method="accountingCodeSaleValidationTest">accountingCodeSaleValidationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.ProductValidationPageTest" class="method navigator-link" hash-for-method="areaValidationTest">areaValidationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.ProductValidationPageTest" class="method navigator-link" hash-for-method="barcodeTypeValidationTest">barcodeTypeValidationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.ProductValidationPageTest" class="method navigator-link" hash-for-method="barcodeValueValidationTest">barcodeValueValidationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.ProductValidationPageTest" class="method navigator-link" hash-for-method="customHSCodeValidationTest">customHSCodeValidationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.ProductValidationPageTest" class="method navigator-link" hash-for-method="defaultWarehouseValidationTest">defaultWarehouseValidationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.ProductValidationPageTest" class="method navigator-link" hash-for-method="descriptionValidationTest">descriptionValidationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.ProductValidationPageTest" class="method navigator-link" hash-for-method="labelValidationTest">labelValidationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.ProductValidationPageTest" class="method navigator-link" hash-for-method="lengthWidthHeigthValidationTest">lengthWidthHeigthValidationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.ProductValidationPageTest" class="method navigator-link" hash-for-method="listOfProductsPageTest(AC1234, NYCQueens, Not for sale, Not for purchase, Yes (lot required), Code 128, 123455, Goods for Q...)">listOfProductsPageTest(AC1234, NYCQueens, Not for sale, Not for purchase, Yes (lot required), Code 128, 123455, Goods for Q...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.ProductValidationPageTest" class="method navigator-link" hash-for-method="loginPageTest(demo, demo)">loginPageTest(demo, demo)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.ProductValidationPageTest" class="method navigator-link" hash-for-method="notesPrivateValidationTest">notesPrivateValidationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.ProductValidationPageTest" class="method navigator-link" hash-for-method="notesTest">notesTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.ProductValidationPageTest" class="method navigator-link" hash-for-method="originValidationTest">originValidationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.ProductValidationPageTest" class="method navigator-link" hash-for-method="publicURLValidationTest">publicURLValidationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.ProductValidationPageTest" class="method navigator-link" hash-for-method="refValidationTest">refValidationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.ProductValidationPageTest" class="method navigator-link" hash-for-method="tagsValidationTest">tagsValidationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.ProductValidationPageTest" class="method navigator-link" hash-for-method="useLotNoValidationTest">useLotNoValidationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.ProductValidationPageTest" class="method navigator-link" hash-for-method="valumeValidationTest">valumeValidationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.ProductValidationPageTest" class="method navigator-link" hash-for-method="weightValidationTest">weightValidationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.ProductValidationPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="accountingCodePurchaseInportValidationTest">
+                  </a> <!-- accountingCodePurchaseInportValidationTest -->
+                  <span class="method-name">accountingCodePurchaseInportValidationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="accountingCodePurchaseValidationTest">
+                  </a> <!-- accountingCodePurchaseValidationTest -->
+                  <span class="method-name">accountingCodePurchaseValidationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="accountingCodeSaleExportValidationTest">
+                  </a> <!-- accountingCodeSaleExportValidationTest -->
+                  <span class="method-name">accountingCodeSaleExportValidationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="accountingCodeSaleValidationTest">
+                  </a> <!-- accountingCodeSaleValidationTest -->
+                  <span class="method-name">accountingCodeSaleValidationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="areaValidationTest">
+                  </a> <!-- areaValidationTest -->
+                  <span class="method-name">areaValidationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="barcodeTypeValidationTest">
+                  </a> <!-- barcodeTypeValidationTest -->
+                  <span class="method-name">barcodeTypeValidationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="barcodeValueValidationTest">
+                  </a> <!-- barcodeValueValidationTest -->
+                  <span class="method-name">barcodeValueValidationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="customHSCodeValidationTest">
+                  </a> <!-- customHSCodeValidationTest -->
+                  <span class="method-name">customHSCodeValidationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="defaultWarehouseValidationTest">
+                  </a> <!-- defaultWarehouseValidationTest -->
+                  <span class="method-name">defaultWarehouseValidationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="descriptionValidationTest">
+                  </a> <!-- descriptionValidationTest -->
+                  <span class="method-name">descriptionValidationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="labelValidationTest">
+                  </a> <!-- labelValidationTest -->
+                  <span class="method-name">labelValidationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="lengthWidthHeigthValidationTest">
+                  </a> <!-- lengthWidthHeigthValidationTest -->
+                  <span class="method-name">lengthWidthHeigthValidationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="listOfProductsPageTest(AC1234, NYCQueens, Not for sale, Not for purchase, Yes (lot required), Code 128, 123455, Goods for Q...)">
+                  </a> <!-- listOfProductsPageTest(AC1234, NYCQueens, Not for sale, Not for purchase, Yes (lot required), Code 128, 123455, Goods for Q...) -->
+                  <span class="method-name">listOfProductsPageTest</span>
+                  <span class="parameters">(AC1234, NYCQueens, Not for sale, Not for purchase, Yes (lot required), Code 128, 123455, Goods for Queens Church, www.sampleushelp@gmail.com, #Almacen_Portatiles, 10, 5000, Manufactured product, 500, kilogram, 5, 3, 4, cm, 10, mm², 8, mm³ (µl), U905, Canada, Nova Scotia, Last Purchase!, Borros, 50, Inc. tax, 40, 12, 101 - Capital, 106 - Réserves, 107 - Ecart d'equivalence, 120 - Résultat de l'exercice (bénéfice), AC1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageTest(demo, demo)">
+                  </a> <!-- loginPageTest(demo, demo) -->
+                  <span class="method-name">loginPageTest</span>
+                  <span class="parameters">(demo, demo)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="notesPrivateValidationTest">
+                  </a> <!-- notesPrivateValidationTest -->
+                  <span class="method-name">notesPrivateValidationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="notesTest">
+                  </a> <!-- notesTest -->
+                  <span class="method-name">notesTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="originValidationTest">
+                  </a> <!-- originValidationTest -->
+                  <span class="method-name">originValidationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="publicURLValidationTest">
+                  </a> <!-- publicURLValidationTest -->
+                  <span class="method-name">publicURLValidationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="refValidationTest">
+                  </a> <!-- refValidationTest -->
+                  <span class="method-name">refValidationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tagsValidationTest">
+                  </a> <!-- tagsValidationTest -->
+                  <span class="method-name">tagsValidationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="useLotNoValidationTest">
+                  </a> <!-- useLotNoValidationTest -->
+                  <span class="method-name">useLotNoValidationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="valumeValidationTest">
+                  </a> <!-- valumeValidationTest -->
+                  <span class="method-name">valumeValidationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="weightValidationTest">
+                  </a> <!-- weightValidationTest -->
+                  <span class="method-name">weightValidationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/private/var/folders/c_/m1_d_cmx2lv4lp1x77jhqnn00000gn/T/testng-eclipse--1736261551/testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.ProductValidationPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(23);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginPageTest')
+data.setCell(0, 2, 'test.ProductValidationPageTest')
+data.setCell(0, 3, 4100);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'listOfProductsPageTest')
+data.setCell(1, 2, 'test.ProductValidationPageTest')
+data.setCell(1, 3, 899);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'notesTest')
+data.setCell(2, 2, 'test.ProductValidationPageTest')
+data.setCell(2, 3, 493);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'refValidationTest')
+data.setCell(3, 2, 'test.ProductValidationPageTest')
+data.setCell(3, 3, 102);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'accountingCodePurchaseValidationTest')
+data.setCell(4, 2, 'test.ProductValidationPageTest')
+data.setCell(4, 3, 75);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'barcodeValueValidationTest')
+data.setCell(5, 2, 'test.ProductValidationPageTest')
+data.setCell(5, 3, 69);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'lengthWidthHeigthValidationTest')
+data.setCell(6, 2, 'test.ProductValidationPageTest')
+data.setCell(6, 3, 68);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'labelValidationTest')
+data.setCell(7, 2, 'test.ProductValidationPageTest')
+data.setCell(7, 3, 64);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'barcodeTypeValidationTest')
+data.setCell(8, 2, 'test.ProductValidationPageTest')
+data.setCell(8, 3, 62);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'notesPrivateValidationTest')
+data.setCell(9, 2, 'test.ProductValidationPageTest')
+data.setCell(9, 3, 58);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'accountingCodeSaleExportValidationTest')
+data.setCell(10, 2, 'test.ProductValidationPageTest')
+data.setCell(10, 3, 56);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'weightValidationTest')
+data.setCell(11, 2, 'test.ProductValidationPageTest')
+data.setCell(11, 3, 56);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'publicURLValidationTest')
+data.setCell(12, 2, 'test.ProductValidationPageTest')
+data.setCell(12, 3, 56);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'valumeValidationTest')
+data.setCell(13, 2, 'test.ProductValidationPageTest')
+data.setCell(13, 3, 56);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'useLotNoValidationTest')
+data.setCell(14, 2, 'test.ProductValidationPageTest')
+data.setCell(14, 3, 55);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'accountingCodeSaleValidationTest')
+data.setCell(15, 2, 'test.ProductValidationPageTest')
+data.setCell(15, 3, 53);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'areaValidationTest')
+data.setCell(16, 2, 'test.ProductValidationPageTest')
+data.setCell(16, 3, 53);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'descriptionValidationTest')
+data.setCell(17, 2, 'test.ProductValidationPageTest')
+data.setCell(17, 3, 52);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'customHSCodeValidationTest')
+data.setCell(18, 2, 'test.ProductValidationPageTest')
+data.setCell(18, 3, 52);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'accountingCodePurchaseInportValidationTest')
+data.setCell(19, 2, 'test.ProductValidationPageTest')
+data.setCell(19, 3, 52);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'defaultWarehouseValidationTest')
+data.setCell(20, 2, 'test.ProductValidationPageTest')
+data.setCell(20, 3, 50);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'originValidationTest')
+data.setCell(21, 2, 'test.ProductValidationPageTest')
+data.setCell(21, 3, 48);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'tagsValidationTest')
+data.setCell(22, 2, 'test.ProductValidationPageTest')
+data.setCell(22, 3, 40);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.ProductValidationPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginPageTest(demo, demo)</span>
+                <span class="method-start">4866 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">listOfProductsPageTest(AC1234, NYCQueens, Not for sale, Not for purchase, Yes (lot required), Code 128, 123455, Goods for Q...)</span>
+                <span class="method-start">9038 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">refValidationTest</span>
+                <span class="method-start">9939 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">labelValidationTest</span>
+                <span class="method-start">10043 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">barcodeTypeValidationTest</span>
+                <span class="method-start">10108 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">barcodeValueValidationTest</span>
+                <span class="method-start">10171 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">useLotNoValidationTest</span>
+                <span class="method-start">10242 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">accountingCodeSaleValidationTest</span>
+                <span class="method-start">10298 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">accountingCodeSaleExportValidationTest</span>
+                <span class="method-start">10352 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">accountingCodePurchaseValidationTest</span>
+                <span class="method-start">10409 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">accountingCodePurchaseInportValidationTest</span>
+                <span class="method-start">10485 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">descriptionValidationTest</span>
+                <span class="method-start">10538 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">publicURLValidationTest</span>
+                <span class="method-start">10591 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">defaultWarehouseValidationTest</span>
+                <span class="method-start">10648 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">weightValidationTest</span>
+                <span class="method-start">10698 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">lengthWidthHeigthValidationTest</span>
+                <span class="method-start">10755 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">areaValidationTest</span>
+                <span class="method-start">10824 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">valumeValidationTest</span>
+                <span class="method-start">10878 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">customHSCodeValidationTest</span>
+                <span class="method-start">10935 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">originValidationTest</span>
+                <span class="method-start">10988 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tagsValidationTest</span>
+                <span class="method-start">11037 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">notesTest</span>
+                <span class="method-start">11077 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">notesPrivateValidationTest</span>
+                <span class="method-start">11570 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="23" passed="23" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-13T02:24:06Z" name="Default suite" finished-at="2022-08-13T02:24:17Z" duration-ms="11641">
+    <groups>
+    </groups>
+    <test started-at="2022-08-13T02:24:06Z" name="Default test" finished-at="2022-08-13T02:24:17Z" duration-ms="11641">
+      <class name="test.ProductValidationPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.ProductValidationPageTest@335b5620]" started-at="2022-08-12T22:24:06Z" name="setUp" finished-at="2022-08-12T22:24:10Z" duration-ms="4318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageTest(java.lang.String, java.lang.String)[pri:1, instance:test.ProductValidationPageTest@335b5620]" started-at="2022-08-12T22:24:11Z" name="loginPageTest" data-provider="dp" finished-at="2022-08-12T22:24:15Z" duration-ms="4100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTest -->
+        <test-method signature="listOfProductsPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:test.ProductValidationPageTest@335b5620]" started-at="2022-08-12T22:24:15Z" name="listOfProductsPageTest" data-provider="dp1" finished-at="2022-08-12T22:24:16Z" duration-ms="899" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AC1234]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NYCQueens]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Not for sale]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Not for purchase]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yes (lot required)]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Code 128]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[123455]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Goods for Queens Church]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[www.sampleushelp@gmail.com]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[#Almacen_Portatiles]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[5000]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Manufactured product]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[500]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[kilogram]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[cm]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[mm²]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[mm³ (µl)]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[U905]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[Nova Scotia]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[Last Purchase!]]>
+              </value>
+            </param>
+            <param index="27">
+              <value>
+                <![CDATA[Borros]]>
+              </value>
+            </param>
+            <param index="28">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="29">
+              <value>
+                <![CDATA[Inc. tax]]>
+              </value>
+            </param>
+            <param index="30">
+              <value>
+                <![CDATA[40]]>
+              </value>
+            </param>
+            <param index="31">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="32">
+              <value>
+                <![CDATA[101 - Capital]]>
+              </value>
+            </param>
+            <param index="33">
+              <value>
+                <![CDATA[106 - Réserves]]>
+              </value>
+            </param>
+            <param index="34">
+              <value>
+                <![CDATA[107 - Ecart d'equivalence]]>
+              </value>
+            </param>
+            <param index="35">
+              <value>
+                <![CDATA[120 - Résultat de l'exercice (bénéfice)]]>
+              </value>
+            </param>
+            <param index="36">
+              <value>
+                <![CDATA[AC1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listOfProductsPageTest -->
+        <test-method signature="refValidationTest()[pri:3, instance:test.ProductValidationPageTest@335b5620]" started-at="2022-08-12T22:24:16Z" name="refValidationTest" finished-at="2022-08-12T22:24:16Z" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refValidationTest -->
+        <test-method signature="labelValidationTest()[pri:4, instance:test.ProductValidationPageTest@335b5620]" started-at="2022-08-12T22:24:16Z" name="labelValidationTest" finished-at="2022-08-12T22:24:16Z" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- labelValidationTest -->
+        <test-method signature="barcodeTypeValidationTest()[pri:5, instance:test.ProductValidationPageTest@335b5620]" started-at="2022-08-12T22:24:16Z" name="barcodeTypeValidationTest" finished-at="2022-08-12T22:24:16Z" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- barcodeTypeValidationTest -->
+        <test-method signature="barcodeValueValidationTest()[pri:6, instance:test.ProductValidationPageTest@335b5620]" started-at="2022-08-12T22:24:16Z" name="barcodeValueValidationTest" finished-at="2022-08-12T22:24:16Z" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- barcodeValueValidationTest -->
+        <test-method signature="useLotNoValidationTest()[pri:7, instance:test.ProductValidationPageTest@335b5620]" started-at="2022-08-12T22:24:16Z" name="useLotNoValidationTest" finished-at="2022-08-12T22:24:16Z" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- useLotNoValidationTest -->
+        <test-method signature="accountingCodeSaleValidationTest()[pri:8, instance:test.ProductValidationPageTest@335b5620]" started-at="2022-08-12T22:24:16Z" name="accountingCodeSaleValidationTest" finished-at="2022-08-12T22:24:16Z" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountingCodeSaleValidationTest -->
+        <test-method signature="accountingCodeSaleExportValidationTest()[pri:9, instance:test.ProductValidationPageTest@335b5620]" started-at="2022-08-12T22:24:16Z" name="accountingCodeSaleExportValidationTest" finished-at="2022-08-12T22:24:16Z" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountingCodeSaleExportValidationTest -->
+        <test-method signature="accountingCodePurchaseValidationTest()[pri:10, instance:test.ProductValidationPageTest@335b5620]" started-at="2022-08-12T22:24:16Z" name="accountingCodePurchaseValidationTest" finished-at="2022-08-12T22:24:16Z" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountingCodePurchaseValidationTest -->
+        <test-method signature="accountingCodePurchaseInportValidationTest()[pri:11, instance:test.ProductValidationPageTest@335b5620]" started-at="2022-08-12T22:24:16Z" name="accountingCodePurchaseInportValidationTest" finished-at="2022-08-12T22:24:16Z" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountingCodePurchaseInportValidationTest -->
+        <test-method signature="descriptionValidationTest()[pri:12, instance:test.ProductValidationPageTest@335b5620]" started-at="2022-08-12T22:24:16Z" name="descriptionValidationTest" finished-at="2022-08-12T22:24:16Z" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- descriptionValidationTest -->
+        <test-method signature="publicURLValidationTest()[pri:13, instance:test.ProductValidationPageTest@335b5620]" started-at="2022-08-12T22:24:16Z" name="publicURLValidationTest" finished-at="2022-08-12T22:24:16Z" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publicURLValidationTest -->
+        <test-method signature="defaultWarehouseValidationTest()[pri:14, instance:test.ProductValidationPageTest@335b5620]" started-at="2022-08-12T22:24:16Z" name="defaultWarehouseValidationTest" finished-at="2022-08-12T22:24:16Z" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defaultWarehouseValidationTest -->
+        <test-method signature="weightValidationTest()[pri:15, instance:test.ProductValidationPageTest@335b5620]" started-at="2022-08-12T22:24:16Z" name="weightValidationTest" finished-at="2022-08-12T22:24:16Z" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- weightValidationTest -->
+        <test-method signature="lengthWidthHeigthValidationTest()[pri:16, instance:test.ProductValidationPageTest@335b5620]" started-at="2022-08-12T22:24:16Z" name="lengthWidthHeigthValidationTest" finished-at="2022-08-12T22:24:16Z" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lengthWidthHeigthValidationTest -->
+        <test-method signature="areaValidationTest()[pri:17, instance:test.ProductValidationPageTest@335b5620]" started-at="2022-08-12T22:24:16Z" name="areaValidationTest" finished-at="2022-08-12T22:24:17Z" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- areaValidationTest -->
+        <test-method signature="valumeValidationTest()[pri:18, instance:test.ProductValidationPageTest@335b5620]" started-at="2022-08-12T22:24:17Z" name="valumeValidationTest" finished-at="2022-08-12T22:24:17Z" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valumeValidationTest -->
+        <test-method signature="customHSCodeValidationTest()[pri:19, instance:test.ProductValidationPageTest@335b5620]" started-at="2022-08-12T22:24:17Z" name="customHSCodeValidationTest" finished-at="2022-08-12T22:24:17Z" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customHSCodeValidationTest -->
+        <test-method signature="originValidationTest()[pri:20, instance:test.ProductValidationPageTest@335b5620]" started-at="2022-08-12T22:24:17Z" name="originValidationTest" finished-at="2022-08-12T22:24:17Z" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- originValidationTest -->
+        <test-method signature="tagsValidationTest()[pri:21, instance:test.ProductValidationPageTest@335b5620]" started-at="2022-08-12T22:24:17Z" name="tagsValidationTest" finished-at="2022-08-12T22:24:17Z" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tagsValidationTest -->
+        <test-method signature="notesTest()[pri:22, instance:test.ProductValidationPageTest@335b5620]" started-at="2022-08-12T22:24:17Z" name="notesTest" finished-at="2022-08-12T22:24:17Z" duration-ms="493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- notesTest -->
+        <test-method signature="notesPrivateValidationTest()[pri:23, instance:test.ProductValidationPageTest@335b5620]" started-at="2022-08-12T22:24:17Z" name="notesPrivateValidationTest" finished-at="2022-08-12T22:24:17Z" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- notesPrivateValidationTest -->
+      </class> <!-- test.ProductValidationPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
